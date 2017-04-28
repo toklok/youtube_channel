@@ -1,0 +1,51 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  color: white;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: red;
+  box-shadow: 1px 1px 1px 1px white;
+}
+
+header h1 {
+  font-size: 36px;
+  text-shadow: 0px 3px 2px rgba(181, 174, 174, 0.74);
+  color: black;
+}
+
+header .logo {
+  margin-left: 20px;
+}
+
+#slick section {
+  height: 75vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#slick button {
+  position:absolute;
+  top:50%;
+  z-index: 5;
+  &.slick-prev {
+    left: 0;
+  }
+  &.slick-next {
+    right: 0;
+  }
+}
+
+footer h1 {
+  color: black;
+}
