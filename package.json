@@ -1,0 +1,37 @@
+{
+  "name": "personal-preact",
+  "version": "0.0.1",
+  "description": "personal website for youtube channel, wordpress rest api will be used ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --progress",
+    "test": "n/a"
+  },
+  "keywords": [
+    "vdom",
+    "preact",
+    "youtube",
+    "wordpress",
+    "rest",
+    "api"
+  ],
+  "author": "joseph curtis",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "preact": "^8.1.0",
+    "preact-compat": "^3.16.0"
+  }
+}
